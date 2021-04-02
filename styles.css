@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'ClearSans';
+  src: url('clearsans-1.00/EOT/ClearSans-Light.eot');
+  src: url('clearsans-1.00/TTF/ClearSans-Light.eot?#iefix') format('embedded-opentype'),
+  url('clearsans-1.00/TTF/ClearSans-Light.ttf') format('truetype');
+
+}
+
+body{
+  background-color: #9499A1;
+font-family: ClearSans;
+
+}
+h1{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  display: flex;
+  box-shadow: -1px 5px #4D5054;
+
+}
+
+.game{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.col-lg{
+  background-color: #CED6E0;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.win{
+  background-color: green;
+  z-index: -1;
+  position:relative;
+}
+
+.hero1{
+  background-image: url(https://brantsteele.com/images/survivor/20/sugar.png);
+  background-size: cover;
+}
+.hero2{
+  background-image: url(https://brantsteele.com/images/survivor/20/stephenie.png);
+  background-size: cover;
+}
+.hero3{
+  background-image: url(https://brantsteele.com/images/survivor/20/cirie.png);
+  background-size: cover;
+}
+.hero4{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/tom.png);
+}
+.hero5{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/james.png);
+}
+.hero6{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/jt.png);
+}
+.hero7{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/amanda.png);
+}
+.hero8{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/candice.png);
+}
+.hero9{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/rupert.png);
+}
+.hero10{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/colby.png);
+}
+.hero11{
+  background-image: url(https://static.wikia.nocookie.net/survivor/images/1/1f/S20_heroes.png);
+  background-size: contain;
+}
+
+.villain1{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/randy.png);
+}
+
+.villain2{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/tyson.png);
+}
+
+.villain3{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/rob.png);
+}
+
+.villain4{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/coach.png);
+}
+
+.villain5{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/courtney.png);
+}
+.villain6{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/danielle.png);
+}
+.villain7{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/jerri.png)
+}
+.villain8{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/russell.png);
+}
+.villain9{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/parvati.png)
+}
+.villain10{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/sandra.png);
+}
+.villain11{
+  background-image: url(http://images6.fanpop.com/image/photos/40300000/Villains-Buff-Heroes-Vs-Villains-survivor-40351989-326-700.png);
+  background-size: contain;
+}
+
+.jury1{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/coach.png);
+}
+.jury2{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/courtney.png);
+}
+.jury3{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/jt.png);
+}
+.jury4{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/amanda.png);
+}
+.jury5{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/candice.png);
+}
+.jury6{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/danielle.png);
+}
+.jury7{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/rupert.png);
+}
+.jury8{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/colby.png);
+}
+.jury9{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/jerri.png);
+}
+.jury10{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/russell.png);
+}
+.jury11{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/parvati.png);
+}
+.jury12{
+  background-size: cover;
+  background-image: url(https://brantsteele.com/images/survivor/20/sandra.png);
+}
