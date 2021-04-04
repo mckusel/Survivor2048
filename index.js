@@ -1,21 +1,37 @@
- var width = $(".col-lg").width();
+  var width = $(".col-lg").width();
  var team = "false";
  var ready = false;
  var gamestate = [];
  var score = 0;
  var moved = false;
  var pressed = false;
+ var restart = false;
+ var restartname = "";
+ // var restart = false;
+
  $(".col-lg").height(width);
  $(".game").removeClass("invisible");
  $(".btn").click(function(){
    var name = $(this).attr("name");
+   console.log("name = "+name+ "restart "+ restart);
    if(team == "false"&& pressed == false){
+     if(restart){
+       for(i = 0; i < 16; i++){
+        console.log(""+i);
+         if(gamestate[i] != 0){
+         $("#spot"+i).removeClass(restartname+gamestate[i]);
+         gamestate[i] = 0;
+       }
+     }
+     score = 0;
+     }
    team = name;
    ready = true;
    pressed = true;
   $(".win").addClass("invisible");
   $(".lose").addClass("invisible");
-   gamestate = r2g();
+  $(".score").text("Score: "+score);
+  gamestate = r2g();
 }
 });
 
@@ -246,26 +262,19 @@ function addNext(moved){
 
 function win(){
    $(".win").removeClass("invisible");
-   restart("win");
+   restart = true;
+   restartname = team;
+   team = "false";
+   ready = false;
+   pressed = false;
 }
 
 function lose(){
  $(".lose").removeClass("invisible");
- restart("lose");
+ restart = true;
+ restartname = team;
+ team = "false";
+ ready = false;
+ pressed = false;
 }
 
-function restart(type){
-  setTimeout(function(){
-
-  }, 2000);
-  for(i = 0; i < 16; i++){
-    if(gamestate[i] != 0){
-    $("#spot"+i).removeClass(team+gamestate[i]);
-    gamestate[i] = 0;
-  }
-}
-score = 0;
-team = "false";
-ready = false;
-pressed = false;
-}
